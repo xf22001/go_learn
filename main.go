@@ -7,6 +7,7 @@ import (
 	"learn/test_json"
 	"learn/test_log"
 	"learn/test_struc"
+	"learn/test_syntax"
 	"log"
 )
 
@@ -21,4 +22,5 @@ func main() {
 	disable_redriect.DisableRedirect()
 	test_json.TestJsonMarshal()
 	test_c.TestC()
+	test_syntax.TestSyntax()
 }
